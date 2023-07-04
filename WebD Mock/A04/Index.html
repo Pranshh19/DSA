@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+    .nav{
+        display: flex;
+        justify-content:space-between;
+        align-items:space-between ;
+    }
+    .div{
+        display: flex;
+        justify-content:space-between;
+        align-items:right;
+    }
+    .div2{
+        display: flex;
+        justify-content:space-between;
+        align-items:space-between;
+
+    }
+    .box{
+        padding: 10px;
+    }
+    .cont{
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+    }
+    .cont1{
+        display: table-column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<p style = "background-color: black; color:white; display:flex; justify-content:center; align-items: center; height:50px;">
+    This is black ribbon
+        <!-- <p style = "background-color: black; color:white; display:flex; justify-content:center; align-items: center">This is nav</p> --> 
+ </p>
+ <nav class="nav">
+    <div class="div">
+        <div class="box" >Products</div>
+        <div class="box">Main</div>
+        <div class="box">Tup</div>
+        <div class="box">Pricing</div>
+    </div>
+    <div><img src="logo.png" style="height:50px " alt=""></div>
+    <div class="div2">
+        <div class="box">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="box"><button style="background-color: grey; border-radius: 20%; padding:5px;">Log In</button></div>
+        <div class="box" ><button style="background-color: yellow; border-radius: 20%; padding:5px;">Sign Up</button></div>
+    </div>
+ </nav>
+<body>
+ <div class="cont"> 
+    <div class="cont1">
+        <p>Aspiring creation</p>
+        <h1>Create must click landing pages</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, earum?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptatum.<br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, rerum!<br></p>
+        <br>
+        <button style="background-color: yellow; border-radius: 20%; padding:5px;">Click here</button>
+    </div>
+    <div>
+        <img src="hero.png" alt="">
+    </div>
+ </div>
+</body>
+
+</html>
